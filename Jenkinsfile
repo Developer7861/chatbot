@@ -7,16 +7,25 @@ pipeline {
       }
     }
     stage ("main deploy") {
+      when {
+        branch "main"
+      }
       steps {
         echo "deploying to main"
       }
     }
     stage ("dev deploy") {
+      when {
+        branch "dev"
+      }
       steps {
         echo "deploying to dev"
       }
     }
     stage ("feat deploy") {
+      when {
+        branch "feat"
+      }
       steps {
         echo "deploying to feat"
       }
