@@ -5,7 +5,7 @@
 
   <groupId>in.Developer7861</groupId>
   <artifactId>chatbot</artifactId>
-  <version>1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>chatbot Maven Webapp</name>
